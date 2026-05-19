@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Per-page individual values, not a site-wide default. -->
+  <title>Page title — exactly what this page is about | Your Brand</title>
+  <meta name="description" content="One-sentence description of this specific page, between 120 and 160 characters. Different from your homepage description.">
+  <link rel="canonical" href="https://yourdomain.com/this-page-url">
+
+  <!-- Open Graph (also useful to Meta-WebIndexer and link previews). -->
+  <meta property="og:title" content="Page title — exactly what this page is about">
+  <meta property="og:description" content="Same as meta description, or a slightly more social-friendly variant.">
+  <meta property="og:url" content="https://yourdomain.com/this-page-url">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+
+  <!-- Organization + WebSite JSON-LD (see jsonld-organization.html). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Page title — exactly what this page is about",
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-19",
+    "author": {
+      "@type": "Person",
+      "name": "Author Name"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Your Brand",
+      "url": "https://yourdomain.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Real semantic header, not <div class="header">. -->
+  <header>
+    <a href="/" aria-label="Home — Your Brand"><img src="/logo.png" alt="Your Brand logo" width="120" height="40"></a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content. Exactly one <main> per page. -->
+  <main>
+
+    <!-- A self-contained article with one <h1>. -->
+    <article>
+      <h1>Page title — exactly what this page is about</h1>
+
+      <p><time datetime="2026-05-19">19 May 2026</time> · by Author Name</p>
+
+      <section>
+        <h2>First section</h2>
+        <p>Body text. Sentences explain things. Real paragraphs, not single-sentence-per-line marketing copy.</p>
+
+        <p>To learn more, read <a href="/related-page">the related explainer on Topic X</a> — not <em>click here</em>.</p>
+      </section>
+
+      <section>
+        <h2>Second section, with a figure</h2>
+        <figure>
+          <img src="/illustrations/diagram.svg" alt="Diagram showing the three Agent-Ready building blocks: llms.txt at site root, JSON-LD in the head of every page, and semantic HTML in the body." width="800" height="400">
+          <figcaption>The three Agent-Ready building blocks.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Third section, with a list</h2>
+        <ul>
+          <li>Point one.</li>
+          <li>Point two.</li>
+          <li>Point three.</li>
+        </ul>
+      </section>
+    </article>
+
+    <!-- Sidebar content is <aside>, not another <div>. -->
+    <aside aria-label="Related reading">
+      <h2>Related</h2>
+      <ul>
+        <li><a href="/topic-a">Topic A — short description</a></li>
+        <li><a href="/topic-b">Topic B — short description</a></li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- Real footer. -->
+  <footer>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="/imprint">Imprint</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/llms.txt" title="Agent-Ready — this site is LLM-agent-readable"><img src="/agent-ready-logo.png" alt="Agent-Ready badge — KI and Robots Welcome" width="60" height="60"></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Your Brand. Content under CC BY 4.0 unless noted.</p>
+  </footer>
+
+</body>
+</html>

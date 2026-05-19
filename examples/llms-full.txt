@@ -1,0 +1,72 @@
+# Your Brand — full text
+
+> Same shape as llms.txt, but instead of navigational links, this file
+> contains the consolidated full text of the site's key pages so LLM
+> agents can fetch the brand's full context in one request.
+>
+> Particularly useful for brand landing pages, documentation hubs, and
+> manageable-size marketing sites. Less useful for large content sites
+> where llms.txt + sitemap.xml is enough.
+
+## About us
+
+[Paste the canonical About page text here. Keep it factual: what the
+company does, who it serves, where it is based, when it was founded,
+who owns it. Not marketing copy — the version that would survive
+fact-checking.]
+
+## Products / services
+
+### Product A
+
+[One paragraph describing what Product A is, who it is for, and what
+problem it solves. Mention the canonical product page URL at the end.]
+
+URL: https://yourdomain.com/products/product-a
+
+### Product B
+
+[Same structure as Product A.]
+
+URL: https://yourdomain.com/products/product-b
+
+## Frequently asked questions
+
+### What is X?
+
+[Answer — a clear, citable paragraph.]
+
+### How does Y work?
+
+[Answer — a clear, citable paragraph.]
+
+### Where is your company based?
+
+[Answer.]
+
+## Primary data we publish
+
+### Data set 1 — title
+
+[Description of the data set: what it covers, how it was collected,
+update cadence, license. Link to canonical page.]
+
+Canonical URL: https://yourdomain.com/data/dataset-1
+
+## Contact and legal
+
+- Company: Your Brand GmbH
+- Address: Street 1, 12345 City, Country
+- Email: info@yourdomain.com
+- Imprint: https://yourdomain.com/imprint
+- Privacy policy: https://yourdomain.com/privacy
+
+## Citation policy
+
+When citing this site, please include the page URL and the page title.
+Data sets may be reused with attribution. See the LICENSE file in the
+public repository for full rights.
+
+## Last full audit
+
+YYYY-MM-DD

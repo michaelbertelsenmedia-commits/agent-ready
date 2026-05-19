@@ -1,0 +1,107 @@
+# robots.txt — Agent-Ready reference template (May 2026)
+# Each major AI crawler appears as its own User-agent block so it can be
+# enabled or disabled independently. The Disallow: lines list paths that
+# should not be crawled by any agent (admin areas, search-result pages,
+# duplicate-content paths). Edit those to your site's reality.
+
+# ---------- Anthropic Claude (four-bot system, May 2026) ----------
+
+User-agent: ClaudeBot
+# Training corpus crawler. Disallow if you want to keep content out of
+# Anthropic's model training, allow if you want to influence future models.
+Allow: /
+
+User-agent: Claude-User
+# Fetches initiated by user prompts in the Claude product.
+Allow: /
+
+User-agent: Claude-SearchBot
+# Powers Claude's web search and answer features.
+Allow: /
+
+User-agent: claude-code
+# Web access from the Claude Code CLI.
+Allow: /
+
+# ---------- OpenAI ----------
+
+User-agent: GPTBot
+# Training corpus crawler.
+Allow: /
+
+User-agent: ChatGPT-User
+# User-initiated fetches from inside ChatGPT.
+Allow: /
+
+User-agent: OAI-SearchBot
+# OpenAI's search/answer crawler.
+Allow: /
+
+# ---------- Perplexity ----------
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---------- Google ----------
+
+User-agent: Google-Extended
+# Google's separate opt-out signal for Gemini / Bard training.
+Allow: /
+
+User-agent: Google-Agent
+# Google's agentic crawler.
+Allow: /
+
+# ---------- Apple ----------
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+# Apple's training-corpus opt-out signal.
+Allow: /
+
+# ---------- Mistral ----------
+
+User-agent: MistralAI-User
+Allow: /
+
+# ---------- DuckDuckGo ----------
+
+User-agent: DuckAssistBot
+Allow: /
+
+# ---------- Meta (Facebook / Instagram parent) ----------
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-WebIndexer
+Allow: /
+
+# ---------- Amazon ----------
+
+User-agent: Amazonbot
+Allow: /
+
+# ---------- Common Crawl (used by many downstream LLMs) ----------
+
+User-agent: CCBot
+Allow: /
+
+# ---------- ByteDance ----------
+
+User-agent: Bytespider
+Allow: /
+
+# ---------- Default (all other crawlers) ----------
+
+User-agent: *
+Disallow: /admin/
+Disallow: /search?
+Disallow: /*?utm_
+
+Sitemap: https://yourdomain.com/sitemap.xml

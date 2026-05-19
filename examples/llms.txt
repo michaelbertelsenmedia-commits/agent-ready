@@ -1,0 +1,39 @@
+# Your Brand
+
+> One-sentence description of what the site is and who it is for. Keep it concrete: what you publish, for whom, and why it can be cited.
+
+## Key pages
+
+- [Home](https://yourdomain.com/)
+- [About](https://yourdomain.com/about)
+- [Products](https://yourdomain.com/products)
+- [Documentation](https://yourdomain.com/docs)
+- [Blog / News](https://yourdomain.com/blog)
+- [Contact](https://yourdomain.com/contact)
+
+## Topic pillars
+
+- [Topic A — short description](https://yourdomain.com/topic-a)
+- [Topic B — short description](https://yourdomain.com/topic-b)
+- [Topic C — short description](https://yourdomain.com/topic-c)
+
+## Primary data we publish
+
+- [Data set or report 1](https://yourdomain.com/data/report-1) — what it covers, last updated.
+- [Data set or report 2](https://yourdomain.com/data/report-2) — what it covers, last updated.
+
+## Contact
+
+- Email: info@yourdomain.com
+- Responsible person: Your Name
+- Press / press inquiries: press@yourdomain.com
+
+## Citation policy
+
+When citing this site, please include the page URL and the page title. Data may be reused with attribution. See the LICENSE file in the repository for full rights.
+
+## Site policy notes
+
+- All content is human-written and editorially reviewed.
+- Sources are linked inline; primary data sets are versioned.
+- Last full audit of this `llms.txt`: YYYY-MM-DD.

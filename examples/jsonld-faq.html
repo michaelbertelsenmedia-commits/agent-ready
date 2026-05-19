@@ -1,0 +1,37 @@
+<!-- JSON-LD: FAQPage -->
+<!-- Use on pages with an FAQ section. The Question text should match -->
+<!-- the visible heading on the page, and Answer.text should match the -->
+<!-- visible answer (Google penalises hidden FAQ content). -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Agent-Ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agent-Ready is an open, free, public-domain standard for websites that want to be readable by AI agents like ChatGPT, Claude, Perplexity, and Gemini. It bundles three technical pieces — llms.txt, JSON-LD per schema.org, and semantic HTML — into one named, sharable standard with a visible badge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to implement Agent-Ready on a site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a developer, under one hour for a small site. The three pieces are a single text file at the site root, a JSON-LD snippet in the page head, and a pass to replace generic div containers with semantic HTML tags. No build tooling, no framework, no fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Agent-Ready replace SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. SEO gets a site into the search index — without indexing, no AI agent can find it. Agent-Ready is the layer on top that makes the indexed content reliably readable by LLM agents. The two are complementary, not alternatives."
+      }
+    }
+  ]
+}
+</script>
